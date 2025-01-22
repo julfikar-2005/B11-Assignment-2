@@ -117,3 +117,69 @@
 }
 /* banner part end */
 
+
+.section-1{
+    background-image:url(../assets/bg.png);
+    max-width: 1160px;
+    margin: 0 auto;
+    
+}
+.title{
+    color: #000000;
+    font-weight: bold;
+    font-size: 2.88rem;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;    
+}
+.card-title{
+    color:#202020 ;
+    font-weight: bold;
+    font-size: 1.53rem;
+
+}
+.card-sub-title{
+    color:#808080 ;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.card-container{
+    display: flex;
+    
+    
+}
+.card, .card-2, .card-3{
+    border-radius:18px ;
+    margin-right: 50px;
+    box-shadow: 0 0 18.3px 0.94px rgba(0, 0, 0, 0.05);
+    padding: 31px;
+    text-align: center;
+    background-image:linear-gradient( #DEF5FF, #FFFFFF 30%) ;
+}
+.card-2{
+    background-image: linear-gradient( #FFF4DC, #FFFFFF 30%);
+    border: 1px solid #FFF4DC ;
+
+}
+.card-3{
+    margin-right: 0;
+    background-image: linear-gradient( #EEE1FF, #FFFFFF 30%);
+}
+.more-1{
+    color:#64C8FF ;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.more-2{
+    color:#F0AA00 ;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.more-3{
+    color:#8700FF ;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+}
