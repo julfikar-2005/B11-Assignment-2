@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style part */
+.display-flex{
+    display: flex;
+}
+
+.max-width{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+
+/* navbar style part */
+.navber{
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.nav-img{
+   width: 62px;
+   height: 62px;
+   margin-top: 17px;
+
+}
+.brand{
+    color: rgba(17, 17, 17, 1);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.item{
+    list-style: none;
+    margin-right: 32px;
+}
+.item-1{
+    color:rgba(254, 163, 1, 1) ;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-decoration: none;
+    
+}
+.item-2{
+    color: rgba(1, 172, 253, 1);
+    font-weight:500;
+    font-size: 1.25rem;
+    text-decoration: none;
+
+}
+.item-3{
+    color: #05D4DF;
+    font-weight:500;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+.item-4{
+    color: #5D58EF;
+    font-weight:500;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+.btn-1{
+    background-color:rgba(254, 163, 1, 1) ;
+    color:#FFFFFF ;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 10px;
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+}
+
+/* banner parrt start */
+.banner{
+    gap: 50px;
+}
+.banner-contant{
+    margin: auto 0;
+}
+.banner-title{
+    color: rgba(17, 17, 17, 1);
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.empowering{
+    color: rgba(254, 163, 1, 1);
+    
+
+}
+.vision{
+    color: rgba(1, 172, 253, 1);
+    
+}
+.banner-sub-title{
+    color: rgba(17, 17, 17, 1);
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.btn-2{
+    background-color: rgba(17, 17, 17, 1);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 12px;
+    width: 197px;
+    height: 50px;
+}
+/* banner part end */
+
