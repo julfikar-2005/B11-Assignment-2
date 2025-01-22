@@ -193,7 +193,7 @@
 /* Standard Curriculum part end */
 
 
-
+/* our stories part start  */
 .our-stories{
     background: url(../assets/bg.png),
     linear-gradient(#FFFFFF 30%, #f0ce92);
@@ -308,4 +308,62 @@
     width: 100%;
     border: none;
     border-radius: 16px 16px 0 0 ;
+}
+/* our stories part end  */
+
+
+
+.footer-section{
+    align-items: center;
+    justify-content: space-around;
+    height: 519px;
+    
+}
+.footer{
+    background-color:#01ACFD ;
+}
+
+.nav-imgs{
+    width: 82px;
+    height: 100px;
+    margin-top: 40px;
+
+}
+.footer-title{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 42px;
+
+}
+.footer-description{
+    color:#FFFFFF ;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+
+
+}
+.footer-title-2{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 24px;
+    width: 160px;
+
+}
+.list-item{
+    list-style: none;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-weight:500 ;
+    font-size: 1.25rem;
+
+}
+.footer-title-3{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 26px;
+
+}
+.icon-img{
+    gap: 10px;
 }
