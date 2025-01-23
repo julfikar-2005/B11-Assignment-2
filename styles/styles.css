@@ -367,3 +367,102 @@
 .icon-img{
     gap: 10px;
 }
+
+
+@media screen and (max-width: 576px) {
+
+    .brand, .btn-1{
+        visibility: hidden;
+        display: none;
+    }
+    .item-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .banner,
+    .card-container,
+    .footer-section{
+        flex-direction: column;
+    }
+    .banner-contant{
+        order: 2;
+        width: 380px;
+        text-align: center;
+    }
+    .card-container{
+        gap: 10px;
+    }
+    .card{
+        width: 320px;
+    }
+    .card-2{
+        width: 320px;
+    }
+    .card-3{
+        width: 320px;  
+    }
+    .stories{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        margin: 5px;
+        overflow-x: scroll; 
+    }
+    .stories-con-1{
+        visibility: hidden;
+        display: none;
+    }
+    .stories-con-2{
+       width: 100%;
+       margin-left: 0px;
+       margin-right: 0px;
+      
+    }
+    .title{
+        display: flex;
+        margin-left: 30px;
+        text-align: center;
+        font-size: 32px;
+       flex-wrap: wrap;
+    }
+    .navber{
+        max-width: 300px;
+        margin-left: 20px;
+    }
+    .btn-4{
+        width: 150px;
+        position: relative;
+        left: -5px;
+    }
+    .btn-5{
+        width: 150px;
+        position: relative;
+        left: -5px;
+    }
+    .btn-6{
+        position: relative;
+        left: 100px;
+    }
+    
+    .footer-section{
+        padding: 10px;
+        height: auto;
+        position: relative;
+        left: -80px;
+
+    }
+    .footer-contant{
+        padding: 10px;
+    } 
+    .arro{
+       margin-right: 180px;
+    } 
+    .stories-title-0{
+       margin-right: 180px;
+    } 
+    .stories{
+        width: 400px;
+    }
+    .img-hero{
+        width: 400px;
+    }
+}
